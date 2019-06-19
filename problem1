@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+import numpy as np
+
+rows=int(input("enter no. of rows "))
+cols=int(input("enter no. of column "))
+a = np.matrix(np.random.randint(1,100, size=(rows, cols))) #the random elements of the matrix will be between 1-100
+print(a)
+file=input("enter file name:")
+f=open(file,"a+")
+f.write(str(a))
+f.close()
