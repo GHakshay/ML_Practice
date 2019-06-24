@@ -1,1 +1,4 @@
+#!usr/bin/python3
 
+import numpy as np
+array=np.arrange(100,200,5).reshape(8,2) #it ll make array of size 8*2 with diff. of 5 in each element
